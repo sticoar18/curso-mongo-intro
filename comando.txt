@@ -1,2 +1,13 @@
 se("sample_training")
-db.zips.find({state:"NY"}).count() 
+db.zips.find({state:"NY"}) #consulta que trae todos los documentos que cumplen con esa condicion
+db.zips.find({state:"NY"}).count() # consulta que cuanta todos los documentos que cumplen con esa condicion
+
+
+GIT
+
+git init
+git remote add origin git@github.com:platzi/curos-mongo-intro.git
+git add .
+git commit -m "start project"
+git push origin master
+
